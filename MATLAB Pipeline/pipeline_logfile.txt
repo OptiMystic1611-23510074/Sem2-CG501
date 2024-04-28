@@ -1,0 +1,25 @@
+==================================
+Error doing ICA for subject sub-063
+Matrix dimensions must agree.
+==================================
+ 
+==================================
+Error doing EPOCHING of memory condition for subject sub-052
+Error: dataset sub-052_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of memory condition for subject sub-048
+Error: dataset sub-048_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of memory condition for subject sub-052
+Error: dataset sub-052_task_PRE-CRD-ICA-BLR_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of memory condition for subject sub-048
+Error: dataset sub-048_task_PRE-CRD-ICA-BLR_eeg.set is empty
+==================================
+ 

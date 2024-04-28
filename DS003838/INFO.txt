@@ -1,0 +1,4 @@
+All these folders are empty. 
+This is to just show the how the folders need to be created to run the pipeline on original dataset.
+
+The process of folder creation can be automated if needed.

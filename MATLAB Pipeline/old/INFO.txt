@@ -1,0 +1,4 @@
+This pipeline can does not do baseline correction.
+Rest everything is same as the main pipeline.
+
+NOTE: old_ needs to be removed from all the files, or the ScriptPipeline.m file needs to be updated.
