@@ -1,4 +1,12 @@
-All these folders are empty. 
-This is to just show the how the folders need to be created to run the pipeline on original dataset.
+This is to just show the folders that need to be created to run the pipeline on original dataset.
+The process of folder creation is mostly automated.
 
-The process of folder creation can be automated if needed.
+DS003838-PRE
+DS003838-PRE-CRD
+DS003838-PRE-CRD-ICA
+DS003838-PRE-CRD-ICA-BLR
+DS003838-PRE-CRD-ICA-BLR-EPH
+DS003838-PRE-CRD-ICA-EPH
+DS003838-PRE-CRD-ICA-EPH_high-low
+DS003838-REST
+EEG_Features
