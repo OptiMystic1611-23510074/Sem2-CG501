@@ -18,10 +18,10 @@ csv = fopen(outFileDir, 'a');
 fprintf(csv, '%s,%s,%s,%s,%s,%s,%s,%s,%s\n', 'subject', 'condition', 'freqBandPowerThetaFz', 'freqBandPowerAlphaMean', 'freqBandPowerAlphaPz', 'freqBandPowerAlphaP1', 'freqBandPowerAlphaP2', 'freqBandPowerAlphaP3', 'freqBandPowerAlphaP4');
 fclose(csv);
 
-inRootDir = 'E:\Dataset\EEG+Pupillometry\DS003838-PRE-CRD-ICA-BLR-EPH';
+inRootDir = 'E:\Dataset\EEG+Pupillometry\DS003838-PRE-CRD-ICA-EPH_high-low';
 
-condFileNames = {'_memory_PRE-CRD-ICA-BLR-EPH_eeg.set' '_control_PRE-CRD-ICA-BLR-EPH_eeg.set'};
-conditions = {'memory' 'control'};
+condFileNames = {'_lowMemory_PRE-CRD-ICA-EPH_eeg.set' '_highMemory_PRE-CRD-ICA-EPH_eeg.set' '_lowControl_PRE-CRD-ICA-EPH_eeg.set' '_highControl_PRE-CRD-ICA-EPH_eeg.set'};
+conditions = {'lowMemory' 'highMemory' 'lowControl' 'highControl'};
 
 
 

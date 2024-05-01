@@ -18,9 +18,9 @@ csv = fopen(outFileDir, 'a');
 fprintf(csv, '%s,%s,%s,%s,%s,%s,%s,%s,%s\n', 'subject', 'condition', 'freqBandPowerThetaFz', 'freqBandPowerAlphaMean', 'freqBandPowerAlphaPz', 'freqBandPowerAlphaP1', 'freqBandPowerAlphaP2', 'freqBandPowerAlphaP3', 'freqBandPowerAlphaP4');
 fclose(csv);
 
-inRootDir = 'E:\Dataset\EEG+Pupillometry\DS003838-PRE-CRD-ICA-BLR-EPH';
+inRootDir = 'E:\Dataset\EEG+Pupillometry\DS003838-PRE-CRD-ICA-EPH';
 
-condFileNames = {'_memory_PRE-CRD-ICA-BLR-EPH_eeg.set' '_control_PRE-CRD-ICA-BLR-EPH_eeg.set'};
+condFileNames = {'_memory_PRE-CRD-ICA-EPH_eeg.set' '_control_PRE-CRD-ICA-EPH_eeg.set'};
 conditions = {'memory' 'control'};
 
 
@@ -50,9 +50,9 @@ for i = 98:-1:32
 
 		% Find theta channel index
 		thetaIdx = zeros(1, 1);
-		for x = 1:length(EEG.chanlocs)
-			if strcmp(EEG.chanlocs(x).labels, thetaChannel)
-				thetaIdx = x;
+		for i = 1:length(EEG.chanlocs)
+			if strcmp(EEG.chanlocs(i).labels, thetaChannel)
+				thetaIdx = i;
 				break;
 			end
 		end
@@ -60,9 +60,9 @@ for i = 98:-1:32
 		% Find alpha channel indices
 		alphaIdxs = zeros(5, 1);
 		for channelIdx = 1:length(alphaChannels)
-			for x = 1:length(EEG.chanlocs)
-				if strcmp(EEG.chanlocs(x).labels, alphaChannels{channelIdx})
-					alphaIdxs(channelIdx) = x;
+			for i = 1:length(EEG.chanlocs)
+				if strcmp(EEG.chanlocs(i).labels, alphaChannels{channelIdx})
+					alphaIdxs(channelIdx) = i;
 					break;
 				end
             end
@@ -83,10 +83,6 @@ for i = 98:-1:32
 		% Theta power
 		for channelIdx = 1:length(thetaIdx)
 			currentIdx = thetaIdx(channelIdx);
-            if currentIdx == 0
-                thetaPower(channelIdx) = 0
-                continue;
-			end
 			
 			for bandIdx = 1:length(thetaBand)
 				band = thetaBand(bandIdx);

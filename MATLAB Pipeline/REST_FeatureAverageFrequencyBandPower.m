@@ -10,7 +10,7 @@ alphaChannels = {'Pz' 'P1' 'P2' 'P3' 'P4'};
 
 
 outRootDir = 'E:\Dataset\EEG+Pupillometry\EEG_Features';
-outFileDir = fullfile(outRootDir, 'BandPower.csv');
+outFileDir = fullfile(outRootDir, 'RESTBandPower.csv');
 if exist(outFileDir, 'file')==2
 	delete(outFileDir);
 end
@@ -18,10 +18,10 @@ csv = fopen(outFileDir, 'a');
 fprintf(csv, '%s,%s,%s,%s,%s,%s,%s,%s,%s\n', 'subject', 'condition', 'freqBandPowerThetaFz', 'freqBandPowerAlphaMean', 'freqBandPowerAlphaPz', 'freqBandPowerAlphaP1', 'freqBandPowerAlphaP2', 'freqBandPowerAlphaP3', 'freqBandPowerAlphaP4');
 fclose(csv);
 
-inRootDir = 'E:\Dataset\EEG+Pupillometry\DS003838-PRE-CRD-ICA-BLR-EPH';
+inRootDir = 'E:\Dataset\EEG+Pupillometry\DS003838-REST';
 
-condFileNames = {'_memory_PRE-CRD-ICA-BLR-EPH_eeg.set' '_control_PRE-CRD-ICA-BLR-EPH_eeg.set'};
-conditions = {'memory' 'control'};
+condFileNames = {'_task_REST_eeg.set'};
+conditions = {'rest'};
 
 
 
