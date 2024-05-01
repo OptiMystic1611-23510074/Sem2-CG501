@@ -23,3 +23,93 @@ Error doing EPOCHING of memory condition for subject sub-048
 Error: dataset sub-048_task_PRE-CRD-ICA-BLR_eeg.set is empty
 ==================================
  
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-096
+Error: dataset sub-096_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-084
+Error: dataset sub-084_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-080
+Error: dataset sub-080_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-062
+Error: dataset sub-062_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-061
+Error: dataset sub-061_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-058
+Error: dataset sub-058_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of lowMemory condition for subject sub-052
+Error: dataset sub-052_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-049
+Error: dataset sub-049_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of lowMemory condition for subject sub-048
+Error: dataset sub-048_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-096
+Error: dataset sub-096_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-084
+Error: dataset sub-084_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-080
+Error: dataset sub-080_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-062
+Error: dataset sub-062_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-061
+Error: dataset sub-061_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-058
+Error: dataset sub-058_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of lowMemory condition for subject sub-052
+Error: dataset sub-052_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of highMemory condition for subject sub-049
+Error: dataset sub-049_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
+==================================
+Error doing EPOCHING of lowMemory condition for subject sub-048
+Error: dataset sub-048_task_PRE-CRD-ICA_eeg.set is empty
+==================================
+ 
